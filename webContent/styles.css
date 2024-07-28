@@ -1,0 +1,156 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("Photo.jpg");
+        background-size: cover;
+	font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#topmid {
+	border: 0px solid black;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: bold;
+	margin: auto;
+	font-style: oblique;
+	font-size: 25px;
+	text-shadow: 2px 2px #ff0000;
+}
+
+.tab {
+	font-weight: bold;
+	margin: 20px  auto;
+	width:40%;
+	text-align:center;
+        margin-top: 35px;
+}
+.tab tr {
+	border: 1px black hidden;
+	border-radius: 10px;
+	background-color: lightsteelblue;
+	font-size: 22px;
+	float:left;
+	padding-left:17%;
+	padding-bottom:5px;
+	padding-top:5px;
+	margin-bottom:10px;
+	width:100%;
+}
+.container{
+  
+}
+   
+    
+
+.heading h3{
+    text-align: center;
+    color: darkred;
+    text-shadow: 2px 1px white;
+    font-size: 2em;
+    font-weight: bold;
+    border-color: white;
+    animation: animate 0.75s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        color: red;
+    }
+    25%{
+        color: green;
+    }
+    50%{
+        color: blue;
+    }
+    75%{
+        color: mustard;
+    }
+    100%{
+        color: yellow;
+    }
+}
+   
+a:hover {
+	color: red;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+header  nav li :hover{
+	border-bottom: 2px #ffff80 solid;
+	border-radius: 10px;
+	color: #ffff80;
+	padding-bottom:2px;
+}
+
+header  nav li{
+    display: table;
+    height: 80%;
+    float: left;
+    margin-right: 20px;
+	padding-left: 10px;
+
+}
+
+header  nav a{
+    color: #ffffff;
+}
+
+header nav li a.active {
+	border-bottom: 2px #ffff80 solid;
+	border-radius: 10px;
+	color: #ffff80;
+	padding-bottom:2px;
+}
+
+
+.holds-the-iframe {
+	background: url(loader.gif) center center no-repeat;
+}
+
+
+.container1{
+    height:70px;
+    top:50px;
+    width:500px;
+    background-color: lightblue;
+    padding: 2px;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 400px;
+}
+
+.tab1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 125px;
+}
+#happy{
+    animation: animate 1s linear infinite;
+}
+@keyframes animate{
+    0%{
+        color: green;
+    }
+    50%{
+        color: mustard;
+    }
+    100%{
+        color: blue;
+    }
+}
+
+
+
+.heading{
+    text-align:center;
+    color:white;
+    font-weight: bold;
+    text-shadow:2px 2px red;
+}
