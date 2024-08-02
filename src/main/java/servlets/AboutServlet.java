@@ -22,14 +22,14 @@ public class AboutServlet extends HttpServlet {
             RequestDispatcher rd = req.getRequestDispatcher("CustomerHome.html");
             rd.include(req, res);
             StoreUtil.setActiveTab(pw, "about");
-            pw.println("<iframe src=\" https://zaheeraslam111.github.io/myportfolio\" class=\"holds-the-iframe\"\r\n"
+            pw.println("<iframe src=\" https://zaheeraslam111.github.io/About_us/\" class=\"holds-the-iframe\"\r\n"
                     + "        title=\"My Personal Website\" width=\"100%\" height=\"100%\"></iframe>");
 
         } else if (StoreUtil.isLoggedIn(UserRole.SELLER, req.getSession())) {
             RequestDispatcher rd = req.getRequestDispatcher("SellerHome.html");
             rd.include(req, res);
             StoreUtil.setActiveTab(pw, "about");
-            pw.println("<iframe src=\" https://zaheeraslam111.github.io/myportfolio\" class=\"holds-the-iframe\"\r\n"
+            pw.println("<iframe src=\" https://zaheeraslam111.github.io/About_us/\" class=\"holds-the-iframe\"\r\n"
                     + "        title=\"My Personal Website\" width=\"100%\" height=\"100%\"></iframe>");
 
         } else {
